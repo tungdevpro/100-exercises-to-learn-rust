@@ -8,3 +8,6 @@ edition = "2021"
 # compiler noise.
 # We'll re-enable them again once we explain how visibility works in Rust.
 dead_code = "allow"
+
+[profile.dev]
+overflow-checks = false
